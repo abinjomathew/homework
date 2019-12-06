@@ -12,6 +12,7 @@
         android:text="course name" />
 
     <EditText
+        android:id="@+id/cname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="course name" />
@@ -22,6 +23,7 @@
         android:text="course description" />
 
     <EditText
+        android:id="@+id/cd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="short description" />
@@ -32,6 +34,7 @@
         android:text="course duration" />
 
     <EditText
+        android:id="@+id/cduration"
         android:inputType="number
 "
         android:layout_width="match_parent"
@@ -45,11 +48,13 @@
         android:text="trainers name" />
 
     <EditText
+        android:id="@+id/trainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="name" />
 
     <Button
+        android:id="@+id/submit"
         android:background="#00FFFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
